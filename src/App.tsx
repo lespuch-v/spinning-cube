@@ -35,7 +35,7 @@ function App() {
           {/* Mouse/touch camera controls */}
           <OrbitControls enableDamping />
           <Html fullscreen>
-            <div style={{ position: "absolute", top: 700, right: 535 }}>
+            <div style={{ position: "absolute", top: 700, right: 635 }}>
               <button onClick={() => handleStopSpinning()}>Pause</button>
             </div>
           </Html>
