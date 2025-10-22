@@ -1,7 +1,11 @@
 import { SpinningBox } from "../components/SpinningBox";
 import * as THREE from "three";
 
-export default function BasicScene({stopthespin}) {
+type BasicSceneProp = {
+  stopthespin?: boolean;
+};
+
+export default function BasicScene({ stopthespin = false }: BasicSceneProp) {
   return (
     <>
       {/* Grid helper from Three.js */}
